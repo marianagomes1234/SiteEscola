@@ -1,7 +1,49 @@
-body{
-	background-color: black;
+.cabecalho {
+    background-color: #383D58;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}  
+
+.cabecalho-imagem{
+    width: 20%;
 }
 
-header{
-	background-color: yellow;
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;                            
+    padding: 24px 0;
+    font-size: 24px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.escola-imagem{
+    width: 25%;
+}
+
+.escola{
+    background-image: linear-gradient(#000000,#751212);
+    color: white;
+}
+
+.escola{
+    background-image: linear-gradient(#000000,#9448df);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+.escola-conteudo{
+    width: 35%;
+}
+
+escola-titulo {
+    padding: 24px 0;
 }
